@@ -1,10 +1,21 @@
 package main
 
-// Sample Data analysus
+import (
+	"fmt"
+)
 
-// Logic for the brute force
+/* Sample Data analysis
 
-//Optimal Logic
+
+ */
+
+/*Logic for the brute force
+
+ */
+
+/*Optimal Logic
+
+ */
 
 // Main Function
 
@@ -20,5 +31,7 @@ package main
 
 // Driver function
 func main(){
+
+	fmt.Println()
 
 }
