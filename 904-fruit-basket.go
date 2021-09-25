@@ -4,7 +4,6 @@ import (
 	"fmt"
 )
 
-//// SIMILAR to Leet Code 438
 /* Sample Data analysis
 
 
