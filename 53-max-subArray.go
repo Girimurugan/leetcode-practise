@@ -29,6 +29,9 @@ return 	maxSubArray
 
 }
 
+// Time complexity - O(n)
+// space complexity - O(1)
+
 func max(a int, b int)int{
 	if a>b{
 		return a
