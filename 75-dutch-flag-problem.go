@@ -52,9 +52,9 @@ func dutchFlafSorting(input []int)[]int{
 
 // Dry run with tests
 
-// Time Complexity
+// Time Complexity - O(n)
 
-// Space Complexity
+// Space Complexity - O(1)
 
 // Driver function
 func main(){
