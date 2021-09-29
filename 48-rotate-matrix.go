@@ -54,9 +54,9 @@ func reflect(matrix [][]int) {
 
 // Dry run with tests
 
-// Time Complexity
+// Time Complexity - O(N^2)
 
-// Space Complexity
+// Space Complexity - O(N^2)
 
 // Driver function
 func main() {
