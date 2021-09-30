@@ -30,7 +30,7 @@ func (s *stack)push(bracket byte){
 }
 
 func (s * stack)pop()byte{
-	
+
 	toPop := byte(0)
     if len(s.items) > 0{
 	toPop = s.items[len(s.items)-1]
@@ -50,6 +50,7 @@ func checkValidParanthesis(s string) bool{
 	charMaps[')'] = '('
 	charMaps['}'] = '{'
 	charMaps[']'] = '['
+
 
 	for i:= 0 ; i< len(s);i++{
 
@@ -75,9 +76,9 @@ func checkValidParanthesis(s string) bool{
 
 // Dry run with tests
 
-// Time Complexity
+// Time Complexity - O(n)
 
-// Space Complexity
+// Space Complexity - O(n)
 
 // Driver function
 func main(){
