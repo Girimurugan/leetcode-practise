@@ -42,19 +42,6 @@ func (h *IntHeap) Push (input interface{}){
 
 func (h *IntHeap) Pop()interface{}{
 
-	// toPop := h.items[0]
-
-	// //length := len(h.items) - 1
-	
-	// // move the last element first
-	// //h.items[0] = h.items[length]
-
-	// // shorten the slice
-	// //h.items = h.items[:length]
-
-	// h.items = h.items[1:]
-	// fmt.Println("Poped -", toPop)
-	// return toPop
 
 	old := *h
 	n := len(old)
