@@ -20,6 +20,9 @@ func (q *Queue)dequeue()int{
 	return toDequeue
 }
 
+// Time Complexity : O (m x n)
+// space complexity:  O (m+n)
+
 // this will be using the BFS algo with a queue
 func numIslands(grid [][]byte)int{
 
