@@ -34,6 +34,7 @@ func main(){
 	fmt.Println(math.MaxInt64)
 
 	fmt.Println(strconv.Atoi(string('1')))
+	fmt.Println("1"+","+"2"+strconv.Itoa(1))
 
 	
 
