@@ -1,0 +1,7 @@
+1. Visualize it a table
+2. Size the table (some thing which changes or size of grid)
+3. Add one to the size
+4. Initilize the table
+5. Seed the trivial  answer to the table
+6. Iterate through the table
+7. Fill the further position based on the current position
